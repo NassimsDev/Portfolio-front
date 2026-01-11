@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mon Portfolio</title>
+        <!-- ===== Ajoute le lien vers le fichier style.css ===== -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- ===== HEADER / NAVIGATION ===== -->
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="logo">
+                        <!-- TODO MARDI HTML : Changez le nom (remplacez par VOTRE NOM) -->
+                        Nassim
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>
+                    <!-- TODO MARDI HTML : Changez ce titre (ex: "Je suis développeur web") -->
+                    Un développeur web passionné
+                </h1>
+                <p>
+                    <!-- TODO MARDI HTML : Changez cette description (parlez de VOUS) -->
+                    Je suis là pour vous guider dans le web
+                </p>
+                <a href="#projects" class="cta-button slide-bottom"
+                    >Découvrir mes projets</a
+                >
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">À propos de moi</h2>
+
+                <div class="about-content">
+                    <div class="about-image">
+                        <img
+                            src="./img/image_26efb119.jpeg"
+                            alt="Photo de profil"
+                        />
+                    </div>
+
+                    <div class="about-text">
+                        <h2>
+                            <!-- TODO MARDI HTML : Changez ce titre (ex: "Qui suis-je ?") -->
+                            Qui suis-je ?
+                        </h2>
+                        <p>
+                            <!-- TODO MARDI HTML : Écrivez un paragraphe sur vous -->
+                            Je suis un web developper / designer avec 78 ans
+                            d'expérience. J'aime bien les burgers.
+                        </p>
+                        <p>
+                            <!-- TODO MARDI HTML : Écrivez un deuxième paragraphe sur vous -->
+                            Mon objectif est de rendre mes parents fier. Je
+                            travaille avec Mon cerveau.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">Mes Compétences</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>Développement web</h3>
+                        <p>
+                            Je suis capable de créer des sites web modernes et
+                            interactifs.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>Design UI/UX</h3>
+                        <p>
+                            Je suis capable de concevoir des interfaces
+                            utilisateur créatives et intuitives.
+                        </p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🥘</div>
+                        <h3>la cuisine</h3>
+                        <p>Je suis capable de cuisiner des plats délicieux.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECTS SECTION ===== -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Mes Projets</h2>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">Apple</div>
+                        <div class="project-content">
+                            <h3>Création d'Apple</h3>
+                            <p>
+                                J'étais là avec Steve Jobs et on a fondé Apple
+                            </p>
+                            <a href="#" class="project-link"
+                                >Voir le projet →</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">Microsoft</div>
+                        <div class="project-content">
+                            <h3>Microsoft</h3>
+                            <p>
+                                J'étais aussi là avec Bill Gates et on a fondé
+                                Microsoft
+                            </p>
+                            <a href="#" class="project-link"
+                                >Voir le projet →</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION / FORM ===== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Me Contacter</h2>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Votre nom</label>
+                        <input type="text" id="name" name="name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Votre email</label>
+                        <input type="email" id="email" name="email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Envoyer</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>À propos</h3>
+                        <p>Je suis là pour vous guider dans le web</p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Liens rapides</h3>
+                        <p>
+                            <a
+                                href="#about"
+                                style="color: #0071e3; text-decoration: none"
+                                >À propos</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                                href="#projects"
+                                style="color: #0071e3; text-decoration: none"
+                                >Projets</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                                href="#contact"
+                                style="color: #0071e3; text-decoration: none"
+                                >Contact</a
+                            >
+                        </p>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Suivez-moi</h3>
+                        <div class="social-links">
+                            <a href="#">🐙</a>
+                            <a href="#">💼</a>
+                            <a href="#">🐦</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    © 2025 Nassim. Tous droits réservés.
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
